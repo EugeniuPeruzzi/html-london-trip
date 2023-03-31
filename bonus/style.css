@@ -28,3 +28,25 @@ hr{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.container{
+    height: 300px;
+    position: relative;
+}
+
+.frst-macro{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.scnd-macro{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.thrd-macro{
+    position: absolute;
+    top: 10%;
+    left: 58%;
+}
