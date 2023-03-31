@@ -4,11 +4,16 @@
     font-family: 'Delicious Handrawn', cursive;
     font-family: 'Edu NSW ACT Foundation', cursive;
 }
-
+/* when in/out zoom it deforms */
 body{ 
     background-color: #e1f4e9;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   text-align: center;
 }
-
+/* using this for not deforming */
 h1{
     text-align: center;
     font-size: 50px;
@@ -42,7 +47,7 @@ hr{
 .scnd-macro{
     position: absolute;
     top: 10%;
-    left: 40%;
+    left: 42%;
 }
 
 .thrd-macro{
@@ -50,3 +55,29 @@ hr{
     top: 10%;
     left: 58%;
 }
+
+#text{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-pht{
+    position: relative;
+    height: 500px;
+
+}
+
+.pht{
+    position: relative;
+
+    height: 400px;
+}
+
+.pht-contain{
+    height: 400px;
+    width: 400px;
+}
+
+/* on mobile screen not compatible */
